@@ -1,4 +1,4 @@
-FROM ubuntu:18.4
+FROM ubuntu:20.04 as ubuntu-base
 RUN apt-get update -y && apt-get upgrade
 RUN apt-get install -y --no-install-recommends ffmpeg \
 RUN pip3 install -U pip
