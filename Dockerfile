@@ -1,4 +1,4 @@
-FROM ubuntu:20.04 
+FROM debian:buster
 FROM python:3.9.12-buster
 RUN apt-get update && apt-get upgrade -y
 RUN apt-get install python3-pip ffmpeg -y
