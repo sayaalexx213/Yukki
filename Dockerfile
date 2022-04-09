@@ -7,5 +7,5 @@ RUN apt-get install npm
 RUN mkdir /app/
 WORKDIR /app/
 COPY . /app/
-RUN pip3 install --no-cache-dir --upgrade --requirement requirements.txt
+RUN pip3 install -U -r requirements.txt
 CMD bash start
