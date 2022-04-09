@@ -1,6 +1,6 @@
 FROM ubuntu:20.04 
 FROM python:3.9.12-buster
-RUN apt-get update -y && apt-get upgrade -y
+RUN apt-get update && apt-get upgrade -y
 RUN apt-get install python3-pip ffmpeg -y
 RUN pip3 install -U pip
 RUN curl -fssL https://deb.nodesource.com/setup_17.x | bash - 
