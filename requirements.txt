@@ -20,6 +20,5 @@ speedtest-cli
 spotipy
 tgcrypto
 wget
-youtube-search
-youtube-search-python==1.6.3
+youtube-search-python
 yt-dlp
